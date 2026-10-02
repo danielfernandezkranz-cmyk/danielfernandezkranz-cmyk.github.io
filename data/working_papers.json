@@ -1,0 +1,92 @@
+{
+  "working_papers": [
+    {
+      "title": "Freed from the Boys: How Single-Sex Schooling Shapes Girls' Effort and Performance in High-Stakes Exams",
+      "status": "Revise & resubmit at the Journal of Economic Behavior and Organization",
+      "coauthors": [
+        {"name": "Caterina Calsamiglia", "url": "https://www.bsc.es/calsamiglia-caterina"},
+        {"name": "Yarine Fawaz", "url": "https://www.cemfi.es/people/faculty/fawaz-yarine"},
+        {"name": "Junhee Lee", "url": ""}
+      ],
+      "year": "2025",
+      "abstract": "Prior research has found that boys often outperform girls in high-stakes math exams, raising the question of whether these gender differences under pressure stem from nature or nurture. This relative female disadvantage can influence access to selective university programs and subsequent career paths. Using administrative and survey data linked to a lottery-based school assignment system, we show that this disadvantage is reversed in single-sex schools: girls randomly assigned to SS schools devote more effort, outperform boys in high-stakes math exams, and have a higher likelihood of enrolling in university STEM degrees (excluding biology). These positive effects come at a cost to well-being in terms of higher stress and worse mental health. These effects are not driven by differences in teacher gender or school resources due to public versus private management. Our findings are consistent with theories emphasizing the social costs of norm violation: in single-sex schools, girls are freed from peer norms that may otherwise discourage overt academic ambition, allowing them to sustain higher effort in competitive and male-dominated domains.",
+      "links": [
+        {"label": "IZA Discussion Paper No. 18208", "url": "https://www.iza.org/publications/dp/18208/freed-from-the-boys-how-single-sex-schooling-shapes-girls-effort-and-performance-in-high-stakes-exams"},
+        {"label": "CEPR Discussion Paper DP21477", "url": "https://cepr.org/publications/dp21477"}
+      ]
+    },
+    {
+      "title": "Maternity Benefits, Consumption and Labor Supply: Estimating Causal Effects with Bank Transaction Data",
+      "status": "",
+      "coauthors": [
+        {"name": "Libertad González", "url": "https://libertadgonzalez.com/"},
+        {"name": "Alberto Graziano", "url": ""},
+        {"name": "Josep Mestres", "url": ""}
+      ],
+      "year": "2026",
+      "abstract": "We study the effects of a large cash transfer to new mothers in the region of Madrid on women's spending patterns and labor supply. We follow a regression discontinuity design where the running variable is the date of birth, given that mothers were only eligible for the subsidy for births starting in January 1 of 2022. We take advantage of rich and very granular transaction data from a large bank to trace out take-up as well as expenditure patterns and labor earnings. We find that women who were eligible for the large subsidy (500€ per month for more than two years) increased their total spending during the eligibility period, while their labor earnings did not decline. We also show marked spikes in expenditure in the dates immediately following benefit receipt. We conclude that the benefit increased consumption for women with liquidity constraints, without reducing their labor supply in the two years following childbirth.",
+      "links": [
+        {"label": "Slides (ASSA 2026, Philadelphia)", "url": "https://www.aeaweb.org/conference/2026/program/powerpoint/DEzH6z79"}
+      ]
+    },
+    {
+      "title": "Private Schooling and Fertility Decline in India",
+      "status": "Reject & resubmit at the Journal of Population Economics",
+      "coauthors": [
+        {"name": "Trong-Anh Trinh", "url": "https://research.monash.edu/en/persons/trong-anh-trinh"}
+      ],
+      "year": "2026",
+      "abstract": "India reached below-replacement fertility (TFR = 2.0) despite low income, persistent traditional gender norms, and declining female labour force participation. We study how the expansion of a decentralized, fee-based education market reshaped fertility decisions by increasing households' exposure to the cost of child quality. Because sons are more likely than daughters to be enrolled in private schools, this cost channel interacts with son preference to generate gender-differentiated fertility stopping behavior. We test predictions from a dynamic model of parity progression using survey data from NFHS (2015–21) merged with administrative district-level UDISE data on 37,251 women in 525 districts at the parity-2-to-3 margin. We find that households with only daughters are less responsive to local private-school prevalence than otherwise similar households with sons. This result is stable across subsamples, the exclusion of recent migrants, controls for modernization proxies, and controls for differential baseline-fertility trends. At the district level, private-school expansion is associated with lower parity progression, but this effect is sensitive to district-level confounding.",
+      "links": [
+        {"label": "IZA Discussion Paper No. 18771", "url": "https://www.iza.org/publications/dp/18771"}
+      ]
+    },
+    {
+      "title": "Childhood Exposure to Joint Custody Reforms and Adult Family Formation",
+      "status": "Submitted",
+      "coauthors": [
+        {"name": "Sébastien Fontenay", "url": "https://sites.google.com/view/sebastienfontenay"}
+      ],
+      "year": "2026",
+      "abstract": "Joint custody reforms are among the most consequential family-law changes for children, yet little is known about their long-term effects. Exploiting staggered adoption across US states and 13 million ACS observations, we show that childhood exposure reduces adult fertility by 7 percent, symmetrically for women and men and operates primarily through lower parenthood and couple formation. Effects are sub-additive within couples, while exposed individuals assortatively match. Our findings point to the formation of family preferences during childhood and align with a US fertility decline increasingly driven by rising childlessness and declining couple formation rather than smaller families among parents.",
+      "links": [
+        {"label": "IZA & LISER Discussion Paper No. 18831", "url": "https://docs.iza.org/dp18831.pdf"}
+      ],
+      "note": "Featured in <em>What we are reading</em>, <a href=\"https://strengtheningfamilies.nd.edu/\" target=\"_blank\" rel=\"noopener\">Strengthening Families Research Initiative</a>, University of Notre Dame."
+    },
+    {
+      "title": "Digital Infrastructure and Work Organization: Evidence from Spain's FTTH Rollout",
+      "status": "Submitted",
+      "coauthors": [
+        {"name": "Liliana Gelabert", "url": "https://www.ie.edu/business-school/faculty-and-research/faculty/liliana-gelabert/"}
+      ],
+      "year": "2026",
+      "abstract": "We study the causal effects of fiber-to-the-home (FTTH) broadband expansion in Spain on the organization of work and the allocation of time within households, exploiting the staggered rollout of FTTH across Spanish provinces over 2012–2023. A ten-percentage-point increase in FTTH penetration raises the female employment rate by 3.0 percentage points and increases weekly hours worked among women aged 30–49, with no significant effects for men or other age groups. FTTH also increases fertility and reduces inactivity due to care responsibilities. The effects are stronger in provinces with a higher pre-existing share of employment in occupations amenable to remote work and in the post-COVID period, suggesting that high-quality digital infrastructure can facilitate the reorganization of work in ways that relax work-family constraints.",
+      "links": [
+        {"label": "SSRN working paper", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6644231"}
+      ]
+    },
+    {
+      "title": "A Collective Review on Some Potential Negative Impacts of Smartphone and Social Media Use on Adolescent Mental Health: Results from a Delphi Process",
+      "status": "Submitted",
+      "coauthors_text": "Valerio Capraro, Laura Globig, Zachary Rausch, Steve Rathje and more than 120 co-authors",
+      "coauthors": [],
+      "year": "2025",
+      "abstract": "The literature on how smartphone and social media use affects adolescent mental health is highly fragmented. To synthesize the evidence, we convened over 120 researchers with diverse perspectives to evaluate 26 commonly cited claims using a Delphi process. A large majority agree that adolescent mental health has declined in several Western countries; that heavy smartphone and social media use can cause sleep problems; that such use correlates with attention problems and behavioural addiction; and that, among girls, social media use may be associated with body dissatisfaction, perfectionism, exposure to mental disorders, harassment and predation. Most other claims were judged to have insufficient evidence due to limited, inconsistent, or non-causal data. Researchers also raised broader concerns, including challenges in measuring mental health and establishing causality, geographic bias in existing evidence, and the need for policies that account for diverse risks and avoid unintended harms.",
+      "links": [
+        {"label": "SSRN working paper", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5256747"}
+      ]
+    }
+  ],
+  "work_in_progress": [
+    {
+      "title": "When Boys and Girls Mingle: Impact on Gender Polarization, Marriage, Fertility, and the Division of Household Chores",
+      "coauthors": [
+        {"name": "Yarine Fawaz", "url": "https://www.cemfi.es/people/faculty/fawaz-yarine"},
+        {"name": "Hyunjae Kang", "url": "https://sites.google.com/view/hyunjae-kang"}
+      ],
+      "year": "2025",
+      "abstract": ""
+    }
+  ]
+}
