@@ -178,7 +178,7 @@ def build_home():
       </ul>
     </div>
     <div class="about-photo">
-      <img src="img/daniel-fernandez-kranz.jpg" alt="Portrait of {esc(s['name'])}" width="900" height="1200">
+      <img src="img/daniel-fernandez-kranz.jpg" alt="Portrait of {esc(s['name'])}" width="900" height="1350">
       <div class="contact-card">
         <h6>{esc(s['address_lines'][0])}</h6>
         <p>{address.split('<br>',1)[1]}</p>
