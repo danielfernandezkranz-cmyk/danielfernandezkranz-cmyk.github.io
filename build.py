@@ -403,6 +403,7 @@ def build_extras():
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {dom}/sitemap.xml\n")
     write(".nojekyll", "")
+    write("CNAME", "danielfernandezkranz.com\n")
     write("favicon.svg", (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">'
         '<rect width="64" height="64" rx="12" fill="#0274be"/>'
