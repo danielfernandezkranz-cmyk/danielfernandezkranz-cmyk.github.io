@@ -205,7 +205,7 @@ def pub_entry(p):
     details = f", {esc(p['details'])}" if p.get("details") else ""
     doi = f' <a class="doi" href="{esc(p["doi"])}" target="_blank" rel="noopener">{esc(p["doi"])}</a>' if p.get("doi") else ""
     extras = "".join(f'<p class="pub-extra">{e}</p>' for e in p.get("extras", []))
-    return (f'<div class="pub"><p>“{title}”{co}. <em>{esc(p["journal"])}</em>{details} ({esc(p["year"])}).{doi}</p>'
+    return (f'<div class="pub"><p>“{title}”{co}. <strong class="journal">{esc(p["journal"])}</strong>{details} ({esc(p["year"])}).{doi}</p>'
             f'{extras}</div>')
 
 
