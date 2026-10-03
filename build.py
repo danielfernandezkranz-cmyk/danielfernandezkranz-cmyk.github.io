@@ -9,7 +9,7 @@ teaching.json, cv.json), drop an updated "CV Daniel Fernandez-Kranz.pdf" in
 this folder, run the script again, and commit + push the result.
 GitHub Pages serves the docs/ folder.
 """
-import json, html, datetime, os, shutil
+import json, html, datetime, os, shutil, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
@@ -35,6 +35,8 @@ def link(text, url, cls=None, new_tab=True):
 
 
 SITE_DATA = load("site.json")
+with open(os.path.join(ROOT, "style.css"), "rb") as _f:
+    CSS_VERSION = hashlib.md5(_f.read()).hexdigest()[:8]
 YEAR = datetime.date.today().year
 
 NAV = [
@@ -56,6 +58,7 @@ ICONS = {
     "ssrn": '<svg viewBox="0 0 24 24"><path d="M4 3h11l5 5v13H4V3zm10 1.5V9h4.5L14 4.5zM6.5 12v1.5h11V12h-11zm0 3v1.5h11V15h-11zm0 3v1.5h7V18h-7z"/></svg>',
     "iza": '<svg viewBox="0 0 24 24"><path d="M3 20h18v2H3v-2zM5 10h3v8H5v-8zm5.5-4h3v12h-3V6zM16 2h3v16h-3V2z"/></svg>',
     "repec": '<svg viewBox="0 0 24 24"><path d="M4 4h16v2H4V4zm0 14h16v2H4v-2zm1-10h3l2 3 2.5-4 2 3 3-2h2.5v6H5V8z"/></svg>',
+    "ie": '<svg viewBox="0 0 24 24"><path d="M3 5h3v14H3V5zm6 0h11v3h-8v2.5h7v3h-7V16h8v3H9V5z"/></svg>',
     "ieerg": '<svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 9h-3a15 15 0 0 0-1.3-5.4A8 8 0 0 1 18.9 11zM12 4c.9 1.2 1.7 3.6 1.9 7h-3.8c.2-3.4 1-5.8 1.9-7zm-2.6 1.6A15 15 0 0 0 8.1 11h-3a8 8 0 0 1 4.3-5.4zM5.1 13h3c.1 2 .6 3.9 1.3 5.4A8 8 0 0 1 5.1 13zm6.9 7c-.9-1.2-1.7-3.6-1.9-7h3.8c-.2 3.4-1 5.8-1.9 7zm2.6-1.6c.7-1.5 1.2-3.4 1.3-5.4h3a8 8 0 0 1-4.3 5.4z"/></svg>',
 }
 
@@ -68,6 +71,7 @@ PROFILE_LABELS = [
     ("ssrn", "SSRN"),
     ("iza", "IZA"),
     ("repec", "RePEc / IDEAS"),
+    ("ie", "IE School of Politics, Economics & Global Affairs"),
     ("ieerg", "IE Economics Research Group"),
 ]
 
@@ -113,7 +117,7 @@ def page(fname, title, body, description, extra_head="", body_class=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v={CSS_VERSION}">
 {extra_head}
 </head>
 <body class="{body_class}">

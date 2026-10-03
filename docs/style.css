@@ -14,8 +14,6 @@
   --link-hover: #3a3a3a;
   --border: #e6e6e6;
   --news: #d0021b;
-  --teal: #1a8a78;          /* Working Papers accents (Mattia's page) */
-  --teal-dark: #136a5c;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
   --font-wp: "Poppins", var(--font);
 }
