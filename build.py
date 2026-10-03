@@ -253,7 +253,10 @@ def coauthor_line(wp):
 
 
 def wp_entry(wp, with_abstract=True):
-    status = f' <span class="wp-status">({esc(wp["status"])})</span>' if wp.get("status") else ""
+    status = ""
+    if wp.get("status"):
+        journal = f' <strong>{esc(wp["journal"])}</strong>' if wp.get("journal") else ""
+        status = f' <span class="wp-status">({esc(wp["status"])}{journal})</span>'
     first = (wp.get("links") or [{}])[0].get("url")
     title = link(wp["title"], first, new_tab=True) if first else esc(wp["title"])
     out = [f'<div class="mf-paper">', f'<h3>{title}{status}</h3>', coauthor_line(wp)]

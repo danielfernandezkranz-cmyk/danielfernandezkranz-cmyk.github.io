@@ -135,9 +135,10 @@ ul.news li { font-size: 18px; margin-bottom: 1em; padding-left: 0; }
   color: var(--heading);
   margin-bottom: .15em;
 }
-.mf-paper h3 a { color: var(--heading); }
-.mf-paper h3 a:hover { color: var(--heading); text-decoration: underline; }
-.wp-status { font-weight: 500; color: var(--heading); }
+.mf-paper h3 a { color: var(--link); }
+.mf-paper h3 a:hover { color: var(--link-hover); text-decoration: underline; }
+.wp-status { font-weight: 400; color: var(--heading); }
+.wp-status strong { font-weight: 600; color: var(--heading); }
 .wp-authors { font-size: 17px; color: var(--heading); margin-bottom: .35em; }
 .wp-authors a { color: var(--heading); text-decoration: underline; }
 .mf-paper details.abstract {
