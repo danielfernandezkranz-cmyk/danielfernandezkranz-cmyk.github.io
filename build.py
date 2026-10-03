@@ -45,6 +45,7 @@ NAV = [
     ("working-papers.html", "Working Papers"),
     ("cv.html", "CV"),
     ("teaching.html", "Teaching"),
+    ("media.html", "Media"),
     ("contact.html", "Contact"),
 ]
 
@@ -337,6 +338,28 @@ def build_teaching():
     write("teaching.html", page("teaching.html", "Teaching", body, desc))
 
 
+def build_media():
+    m = load("media.json")
+    items = []
+    for it in m["items"]:
+        items.append(
+            f'<div class="media-item">'
+            f'<p class="media-meta"><span class="media-date">{esc(it["date"])}</span> · <strong class="journal">{esc(it["outlet"])}</strong></p>'
+            f'<p class="media-title">{link(it["title"], it["url"])}</p>'
+            + (f'<p class="media-paper">On: {esc(it["paper"])}</p>' if it.get("paper") else "")
+            + '</div>'
+        )
+    body = f"""
+<article>
+  <h1 class="page-title">Media</h1>
+  <p>{esc(m["intro"])}</p>
+  {''.join(items)}
+</article>
+"""
+    desc = "Media coverage and institutional references to the research of Daniel Fernández-Kranz."
+    write("media.html", page("media.html", "Media", body, desc))
+
+
 def build_contact():
     s = SITE_DATA
     address = "<br>".join(esc(a) for a in s["address_lines"])
@@ -401,6 +424,7 @@ if __name__ == "__main__":
     build_working_papers()
     build_cv()
     build_teaching()
+    build_media()
     build_contact()
     build_404()
     build_extras()

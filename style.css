@@ -172,6 +172,14 @@ ul.news li { font-size: 18px; margin-bottom: 1em; padding-left: 0; }
 .pdf-embed { margin-top: 1em; border: 1px solid var(--border); }
 .pdf-embed iframe { width: 100%; height: 900px; border: 0; }
 
+/* ---------- media page ---------- */
+.media-item { margin-bottom: 1.4em; padding-bottom: 1em; border-bottom: 1px solid var(--border); }
+.media-item:last-child { border-bottom: 0; }
+.media-meta { margin-bottom: .1em; font-size: 16px; }
+.media-date { color: var(--muted); text-transform: uppercase; letter-spacing: .05em; font-size: 14px; }
+.media-title { margin-bottom: .2em; font-size: 1.05em; }
+.media-paper { margin: 0; font-size: 16px; color: var(--muted); }
+
 /* ---------- contact page ---------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 ul.social.contact-social { flex-direction: column; align-items: flex-start; gap: 8px; }
