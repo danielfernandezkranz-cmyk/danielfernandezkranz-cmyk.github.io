@@ -27,7 +27,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.75;
 }
 a { color: var(--link); text-decoration: none; }
@@ -93,10 +93,10 @@ ul.plain li { margin-bottom: .45em; }
 /* ---------- about page ---------- */
 .about h2 { font-size: 2rem; margin-top: 0; }
 .about-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 48px; align-items: start; }
-.about-text p { font-size: 15.5px; }
+.about-text p { font-size: 17px; }
 .news-label { color: var(--news); font-weight: 700; margin-top: 1.6em; margin-bottom: .4em; }
 ul.news { list-style: none; margin: 0; padding: 0; }
-ul.news li { font-size: 15px; margin-bottom: 1em; padding-left: 0; }
+ul.news li { font-size: 16.5px; margin-bottom: 1em; padding-left: 0; }
 .news-date { display: block; font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .about-photo img { width: 100%; }
 .contact-card { margin-top: 20px; font-size: 14.5px; }
@@ -107,9 +107,9 @@ ul.news li { font-size: 15px; margin-bottom: 1em; padding-left: 0; }
 .pub { margin-bottom: 1.1em; }
 .pub p { margin-bottom: .25em; }
 .pub .doi { font-size: 14px; color: var(--muted); word-break: break-all; }
-.pub-extra { font-size: 14.5px; color: var(--muted); margin-left: 1.2em; }
+.pub-extra { font-size: 15.5px; color: var(--muted); margin-left: 1.2em; }
 .other-pubs { padding-left: 1.2em; }
-.other-pubs li { margin-bottom: .7em; font-size: 15px; }
+.other-pubs li { margin-bottom: .7em; font-size: 16px; }
 
 /* ---------- working papers page (format of mattiafracchia.com/research) ---------- */
 .wp-page main { padding-top: 40px; }
@@ -118,7 +118,7 @@ ul.news li { font-size: 15px; margin-bottom: 1em; padding-left: 0; }
   font-weight: 700;
   font-size: 2.4rem;
   text-align: center;
-  color: var(--teal);
+  color: var(--heading);
   margin-bottom: 1.2em;
 }
 .mf-subtitle {
@@ -126,22 +126,22 @@ ul.news li { font-size: 15px; margin-bottom: 1em; padding-left: 0; }
   font-weight: 600;
   font-size: 1.5rem;
   text-align: center;
-  color: var(--teal);
+  color: var(--heading);
   margin: 2.5em 0 1.2em;
 }
 .mf-paper { margin-bottom: 2.1em; }
 .mf-paper h3 {
   font-family: var(--font-wp);
   font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--teal);
+  font-size: 1.2rem;
+  color: var(--heading);
   margin-bottom: .15em;
 }
-.mf-paper h3 a { color: var(--teal); }
-.mf-paper h3 a:hover { color: var(--teal-dark); text-decoration: none; }
-.wp-status { font-weight: 500; color: var(--teal); }
-.wp-authors { font-size: 14.5px; color: var(--muted); margin-bottom: .35em; }
-.wp-authors a { color: var(--link); }
+.mf-paper h3 a { color: var(--heading); }
+.mf-paper h3 a:hover { color: var(--heading); text-decoration: underline; }
+.wp-status { font-weight: 500; color: var(--heading); }
+.wp-authors { font-size: 16px; color: var(--heading); margin-bottom: .35em; }
+.wp-authors a { color: var(--heading); text-decoration: underline; }
 .mf-paper details.abstract {
   margin-top: .35rem;
   border-left: 3px solid #eee;
@@ -152,15 +152,17 @@ ul.news li { font-size: 15px; margin-bottom: 1em; padding-left: 0; }
 .mf-paper details.abstract > summary {
   list-style: none; cursor: pointer; outline: none;
   text-transform: lowercase; font-variant: small-caps; letter-spacing: .08em;
-  color: #444; font-weight: 600; user-select: none; font-size: 15px;
+  color: var(--heading); font-weight: 600; user-select: none; font-size: 16px;
 }
 .mf-paper details.abstract > summary::-webkit-details-marker { display: none; }
 .mf-paper details.abstract > summary::after { content: " \25B8"; transition: transform .15s ease; display: inline-block; }
 .mf-paper details.abstract[open] > summary::after { transform: rotate(90deg); }
-.mf-paper details.abstract p { margin: .5rem 0 0; font-size: 15px; line-height: 1.65; }
+.mf-paper details.abstract p { margin: .5rem 0 0; font-size: 16.5px; line-height: 1.7; color: var(--heading); }
 .mf-paper details.abstract > summary:focus { box-shadow: 0 0 0 2px #cce; border-radius: 4px; }
-.wp-links { margin: .6em 0 .2em; font-size: 15px; }
-.wp-note { font-size: 14.5px; color: var(--muted); margin: 0; }
+.wp-links { margin: .6em 0 .2em; font-size: 16px; }
+.wp-links a { color: var(--heading); text-decoration: underline; }
+.wp-note { font-size: 16px; color: var(--heading); margin: 0; }
+.wp-note a { color: var(--heading); text-decoration: underline; }
 
 /* ---------- cv page ---------- */
 .cv-table { width: 100%; border-collapse: collapse; margin-bottom: 1.2em; font-size: 15px; }
