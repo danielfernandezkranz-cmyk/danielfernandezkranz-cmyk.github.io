@@ -12,7 +12,7 @@
       "date": "July 2026",
       "outlet": "RNE – Cinco Continentes (Spain)",
       "title": "El perjuicio de las redes sociales",
-      "url": "",
+      "url": "https://www.rtve.es/play/audios/cinco-continentes/cinco-continentes-perjuicio-redes-sociales/17167403/",
       "paper": "High Speed Internet and the Widening Gender Gap in Adolescent Mental Health (with Esther Arenas-Arroyo and Natalia Nollenberger)"
     },
     {
@@ -37,11 +37,25 @@
       "paper": "The Perfect Storm: Effects of Graduating in a Recession in a Segmented Labor Market (with Núria Rodríguez-Planas)"
     },
     {
+      "date": "October 2017",
+      "outlet": "Funcas – Videoblog",
+      "title": "Los salarios en la recuperación (video)",
+      "url": "https://blog.funcas.es/los-salarios-en-la-recuperacion-2/",
+      "paper": "Los salarios en la recuperación española (Cuadernos de Información Económica, Funcas)"
+    },
+    {
       "date": "September 2017",
       "outlet": "El Economista (Spain)",
       "title": "Los salarios de los contratos de entrada al mercado laboral son un 14% inferiores a los de 2008",
       "url": "https://www.eleconomista.es/economia/noticias/8636096/09/17/Los-salarios-de-los-contratos-de-entrada-al-mercado-laboral-son-un-14-inferiores-a-los-de-2008.html",
       "paper": "Los salarios en la recuperación española (Cuadernos de Información Económica, Funcas)"
+    },
+    {
+      "date": "November 2016",
+      "outlet": "Funcas – Videoblog",
+      "title": "Umbral de crecimiento para la creación de empleo en España (video)",
+      "url": "https://blog.funcas.es/umbral-de-crecimiento-para-la-creacion-de-empleo-en-espana/",
+      "paper": "El umbral de crecimiento para la creación de empleo en España (Cuadernos de Información Económica, Funcas)"
     },
     {
       "date": "May 2015",
