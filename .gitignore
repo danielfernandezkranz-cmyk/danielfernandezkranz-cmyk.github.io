@@ -6,5 +6,5 @@ Thumbs.db
 # CV working files (only the final PDF is published)
 *.docx
 ~$*
-update_cv.py
+update_cv*.py
 CV Daniel Fernandez-Kranz (old*
