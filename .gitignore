@@ -3,3 +3,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .claude/
+# CV working files (only the final PDF is published)
+*.docx
+~$*
+update_cv.py
+CV Daniel Fernandez-Kranz (old*
