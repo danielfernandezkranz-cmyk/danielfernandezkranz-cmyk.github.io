@@ -149,7 +149,7 @@
       "abstract": ""
     },
     {
-      "title": "Do Women on Boards Make ESG Scores Tell the Truth? Evidence from Regulatory Penalties",
+      "title": "The Fine Print of ESG Ratings: Penalties, Gender Diversity, and the Audit Committee",
       "coauthors": [
         {
           "name": "Ainara González de San Román",
@@ -157,7 +157,7 @@
         }
       ],
       "year": "2026",
-      "abstract": "Do the governance structures overseeing corporate disclosure make ESG ratings reflect firms’ conduct—or help mask it? We study S&P 500 firms from 2010 to 2023 and assess ESG credibility against externally realized regulatory penalties compiled by the Good Jobs First Violation Tracker. Using firm fixed effects and a difference-in-differences estimator designed for staggered, recurring treatments, we find that ESG ratings are largely decoupled from realized misconduct among firms with male-dominated boards. By contrast, when at least three women serve on the board, a large penalty is followed by a cumulative decline of approximately nine ESG-rating points over subsequent years. This moderating relationship is concentrated in the Environmental pillar, where board gender composition is not itself an input into the rating. It is absent from a media-based controversy measure that is less directly subject to managerial discretion. The evidence also indicates that the result is not driven by firms appointing women after sanctions or by more gender-diverse boards engaging in less misconduct: within firms, board gender diversity does not predict fewer penalties. The findings therefore suggest that board composition shapes what firms report in response to misconduct, rather than what they actually do. The main result replicates using ratings from different ESG providers and is robust to alternative penalty definitions and the exclusion of financial firms, billion-dollar settlements, and crisis-period observations."
+      "abstract": "Do the governance structures overseeing corporate disclosure make ESG ratings reflect firms’ conduct, or help mask it? Studying S&P 500 firms from 2010 to 2023, we assess ESG ratings against regulatory penalties recorded outside the ratings industry by the Violation Tracker. Using a firm fixed-effects interaction model, we find that ESG ratings are largely decoupled from realized misconduct when female board representation is low, but respond more strongly to large penalties as female representation rises; in a staggered difference-in-differences event study, the overall ESG score of gender-diverse boards is about six points lower three years after a large penalty. The moderation is concentrated in the Environmental pillar, where board composition is not itself a rating input. We find no evidence that it reflects diverse boards committing less misconduct or appointing women after sanctions. Board gender diversity thus shapes how faithfully ESG ratings reflect realized misconduct, not the underlying conduct. The channel is disclosure oversight rather than environmental expertise: the moderation is carried by women on the audit committee—especially designated financial experts—and is absent both for women on ESG committees and for male financial experts. The environmental result is robust to firm or industry fixed effects, alternative penalty definitions, and multiple-hypothesis correction; the overall-ESG result also replicates on a second rating provider."
     },
     {
       "title": "Liquidity and Health: Evidence from Australia's COVID-19 Early Release of Superannuation",
